@@ -198,7 +198,7 @@ def create_random_forest(params, index, logger):
     #return RandomForestClassifier(n_jobs=-1, verbose=0, warm_start=True, min_samples_leaf=5)
 
 if __name__ == "__main__":
-    model = outer_model("placeholder", 1, "7-22-20")
+    model = outer_model("cnn_lstm", 2, "8-3-20")
     score = model.train_and_val()
     print("Train val scores: ", score)
     test_acc = model.train_and_test()

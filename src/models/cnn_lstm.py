@@ -16,6 +16,7 @@ class cnn_lstm():
 
         self.name = "cnn_lstm"
         self.dataset_type = "split"
+        self.input_embedding_size = 32
         
     def create_model(self, params, index, logger):
 
