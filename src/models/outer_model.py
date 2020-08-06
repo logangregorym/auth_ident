@@ -105,6 +105,7 @@ class outer_model:
         model = eval(encoder_name + "()")
         # from eval(model) import eval(model)
         temp = "models/" + encoder_name + "/EXP" + str(encoder_exp) + "*" + "/combination-" + str(comb_num)
+        print(str(temp), flush=True)
         model_path = glob.glob(temp)[0]
 
         params_path = model_path + "/../param_dict.json"
@@ -198,6 +199,7 @@ def create_random_forest(params, index, logger):
     #return RandomForestClassifier(n_jobs=-1, verbose=0, warm_start=True, min_samples_leaf=5)
 
 if __name__ == "__main__":
+    print("test", flush=True)
     model = outer_model("300_input_size", 3, "1-30-20")
     score = model.train_and_val()
     print("Train val scores: ", score)
