@@ -27,12 +27,12 @@ class cnn_lstm():
                              params[index]['dataset'].len_encoding),
                              name='input_2')
 
-        conv1 = Conv1D(128, 150, strides=49, name='hidden_1')(input1)
-        conv1 = Conv1D(256, 117, strides=117, name='hidden_1')(conv1)
+        conv1 = Conv1D(128, 150, strides=49, name='hidden_1a')(input1)
+        conv1 = Conv1D(256, 117, strides=117, name='hidden_1b')(conv1)
         conv1 = keras.backend.squeeze(conv1, axis=1)
 
-        conv2 = Conv1D(128, 150, strides=49, name='hidden_2')(input2)
-        conv2 = Conv1D(256, 117, strides=117, name='hidden_2')(conv2)
+        conv2 = Conv1D(128, 150, strides=49, name='hidden_2a')(input2)
+        conv2 = Conv1D(256, 117, strides=117, name='hidden_2b')(conv2)
         conv2 = keras.backend.squeeze(conv2, axis=1)
 
         lstm1 = LSTM(256, name='lstm1')(input1, initial_state=[conv1, conv1])
