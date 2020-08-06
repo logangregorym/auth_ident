@@ -1,0 +1,9 @@
+2020-08-03 00:23:54,694 : INFO : root : Starting expirement fixing_non_siamese_dense-5with model contrastive_bilstm_v2
+2020-08-03 00:23:54,694 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'clipvalue': [0.5], 'loss': ['contrastive'], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [600]}
+2020-08-03 00:23:54,694 : INFO : root : 
+2020-08-03 00:25:08,873 : INFO : root : Starting expirement fixing_non_siamese_dense-5with model contrastive_bilstm_v2
+2020-08-03 00:25:08,873 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'clipvalue': [0.5], 'loss': ['contrastive'], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [600]}
+2020-08-03 00:25:08,874 : INFO : root : 
+2020-08-03 00:25:28,271 : INFO : root : Starting expirement fixing_non_siamese_dense-5with model contrastive_bilstm_v2
+2020-08-03 00:25:28,272 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'clipvalue': [0.5], 'loss': ['contrastive'], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [600]}
+2020-08-03 00:25:28,272 : INFO : root : 

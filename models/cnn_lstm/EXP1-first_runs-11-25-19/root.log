@@ -1,0 +1,7 @@
+2020-08-05 21:36:27,158 : INFO : root : Starting expirement first_runs-1with model cnn_lstm
+2020-08-05 21:36:27,158 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['binary_crossentropy'], 'epochs': [1], 'batch_size': [64], 'binary_encoding': [True], 'max_code_length': [6000]}
+2020-08-05 21:36:27,158 : INFO : root : 
+2020-08-05 21:36:27,174 : INFO : combination-0 : Training with parameter combination 0
+2020-08-05 21:36:27,174 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'binary_crossentropy', 'epochs': 1, 'batch_size': 64, 'binary_encoding': True, 'max_code_length': 6000}
+2020-08-05 21:36:27,174 : INFO : combination-0 : 
+2020-08-05 21:36:27,175 : INFO : combination-0 : Current log dir: models\cnn_lstm\EXP1-first_runs-11-25-19\combination-0
