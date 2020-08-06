@@ -1,7 +1,7 @@
 {
   "k_cross_val": [5],
   "encoder_model": ["split_lstm"],
-  "encoder_exp": ["1"],
+  "encoder_exp": ["3"],
   "bootstrap": [true],
   "min_samples_leaf": [3],
   "n_estimators": [50],
