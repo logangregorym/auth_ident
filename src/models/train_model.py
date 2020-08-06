@@ -239,11 +239,11 @@ if __name__ == "__main__":
 
 # trainer(simple_lstm(), "first_runs", 1, date="13-10-19").train()
 # trainer(simpleNN(), "dropout_onehot", 5, date="12-10-19").train()
-trainer(cnn_lstm(), "first_runs", 1, "11-25-19").train()
+#trainer(cnn_lstm(), "first_runs", 1, "11-25-19").train()
 # trainer(split_cnn(), "smaller_cnn", 4, "1-11-20").train()
 # trainer(largeNN(), "first_runs", 1, "12-10-19").train()
 # trainer(split_NN(), "test_optimizations", 4, "1-16-20").train()
-# trainer(split_lstm(), "300_input_size", 3, "1-30-20").train()
+trainer(split_lstm(), "300_input_size", 3, "1-30-20").train()
 # trainer(contrastive_bilstm(), "fixing_error", 2, "2-18-20").train()
 # trainer(contrastive_bilstm_v2(), "fixing_non_siamese_dense", 5, "5-12-20").train()
 # trainer(multi_attention_bilstm(), "fixing_non_siamese_dense", 5, "5-12-20").train()
