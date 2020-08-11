@@ -48,7 +48,7 @@ class outer_model:
         encoder=self.load_encoder(self.params[0]["encoder_model"], self.params[0]["encoder_exp"])
 
         #strip cnn
-        layer_name = 'output_embedding'
+        layer_name = 'lstm_1'
         intermediate_layer_model = keras.Model(inputs=encoder.input,
                                          outputs=encoder.get_layer(layer_name).output)
         intermediate_layer_model.summary()
@@ -68,6 +68,7 @@ class outer_model:
         #TODO: Validate using train2 and val2 to lock params
 
         self.outer_model = create_random_forest(self.params, 0, None)
+        print(str(self.outer_model), flush=True)
         #train on train3
         #test on test3
         #train3_labels = pd.factorize(train3['author'])[0]
@@ -203,6 +204,7 @@ def create_random_forest(params, index, logger):
 if __name__ == "__main__":
     print("test", flush=True)
     model = outer_model("300_input_size", 3, "1-30-20")
+    print("model created", flush=True)
     score = model.train_and_val()
     print("Train val scores: ", score)
     test_acc = model.train_and_test()
