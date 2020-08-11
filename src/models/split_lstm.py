@@ -27,13 +27,17 @@ class split_lstm():
                              params[index]['dataset'].len_encoding),
                              name='input_2')
 
-        dense1 = Dense(32, name='embedding1')(input1)
-        dense2 = Dense(32, name='embedding2')(input2)
+        dense_1 = Dense(32, name="dense_1")
+        lstm_1 = LSTM(512, name='output_embedding')
 
-        lstm1 = LSTM(512, name='lstm1')(dense1)
-        lstm2 = LSTM(512, name='lstm2')(dense2)
+        dense1 = dense_1(input1)
+        dense2 = dense_1(input2)
 
-        output_embedding = layers.concatenate([lstm1, lstm2], name="output_embedding")
+        lstm1 = lstm_1(dense1)
+        lstm2 = lstm_1(dense2)
+
+        output_embedding = layers.concatenate([lstm1, lstm2], name="concatenate")
+        print(str(output_embedding))
         outputs = Dense(1, activation='sigmoid', name='predictions')(output_embedding)
 
         return keras.Model(inputs=[input1, input2], outputs=outputs, name=self.name + "-" + str(index))

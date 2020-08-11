@@ -1,0 +1,4 @@
+2020-08-10 22:08:32,984 : INFO : combination-0 : Training with parameter combination 0
+2020-08-10 22:08:32,984 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'clipvalue': 0.5, 'loss': 'binary_crossentropy', 'epochs': 10, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 300, 'embedding_size': 1024, 'language': 'python'}
+2020-08-10 22:08:32,984 : INFO : combination-0 : 
+2020-08-10 22:08:32,984 : INFO : combination-0 : Current log dir: models\split_lstm\EXP3-300_input_size-1-30-20\combination-0
