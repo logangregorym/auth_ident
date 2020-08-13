@@ -48,7 +48,7 @@ class outer_model:
         encoder=self.load_encoder(self.params[0]["encoder_model"], self.params[0]["encoder_exp"])
 
         #strip cnn
-        layer_name = 'lstm_1'
+        layer_name = 'lstm1'
         intermediate_layer_model = keras.Model(inputs=encoder.input,
                                          outputs=encoder.get_layer(layer_name).output)
         intermediate_layer_model.summary()
@@ -198,7 +198,7 @@ def accuracy(y_true, y_pred):
 
 def create_random_forest(params, index, logger):
     return KNeighborsClassifier(n_jobs=-1)
-    #return SVC()
+    #return SVC()f
     #return RandomForestClassifier(n_jobs=-1, verbose=0, warm_start=True, min_samples_leaf=5)
 
 if __name__ == "__main__":
