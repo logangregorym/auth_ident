@@ -52,20 +52,17 @@ class outer_model:
         intermediate_layer_model = keras.Model(inputs=encoder.input,
                                          outputs=encoder.get_layer(layer_name).output)
         intermediate_layer_model.summary()
-        #exit()
-        #encoder_embedding = intermediate_layer_model.predict(data)
 
-        #self.params[0]["max_code_length"]=10
         #split test1 -> train3 + test3
         #gen = closed_dataset(crop_length=params[0]["max_code_len"], k_cross_val=params[0]["k_cross_val"], language=params[0]["language"])
         gen = closed_dataset(crop_length=self.params[0]["max_code_length"], k_cross_val=self.params[0]["k_cross_val"],
                              language=self.params[0]["language"])
         self.X1, self.y1, self.X2, self.y2 = gen.get_datasets()
-
+        print("X1 shape: ", self.X1.shape, flush=True)
+        print("y1 shape:", self.y1.shape, flush=True)
+        print("X2 shape: ", self.X2.shape, flush=True)
         self.X1 = intermediate_layer_model.predict(self.X1, batch_size=self.params[0]["batch_size"])
         self.X2 = intermediate_layer_model.predict(self.X2, batch_size=self.params[0]["batch_size"])
-
-        #TODO: Validate using train2 and val2 to lock params
 
         self.outer_model = create_random_forest(self.params, 0, None)
         print(str(self.outer_model), flush=True)
@@ -80,6 +77,7 @@ class outer_model:
 
     def train_and_val(self):
         print("train_and_val", flush=True)
+
         score = cross_val_score(self.outer_model, self.X1, self.y1, verbose=0, cv=self.params[0]["k_cross_val"])
         return score
 
@@ -94,10 +92,9 @@ class outer_model:
         for i in y_test:
             assert i in y_train
         num_auth=len(np.unique(np.array(y_test)))
-        print("Num_file in test_set: ", len(y_test))
-        print("Num_auth in test set: ", num_auth)
-        print(len(X_train[0]), flush=True)
-        print(len(X_train), flush=True)
+        print("Num_file in test_set: ", len(y_test), flush=True)
+        print("Num_auth in test set: ", num_auth, flush=True)
+
         self.outer_model.fit(X_train, y_train)
         return self.outer_model.score(X_test, y_test)
 
