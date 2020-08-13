@@ -98,7 +98,8 @@ class closed_dataset:
         for i in range(len(contents)):
             X.append((self.encode_to_one_hot(contents[i])))
         X = np.array(X) #getting a sequence here
-
+        print(len(X), flush=True)
+        print(len(X[0]), flush=True)
         return X, y
 
     def random_crop(self, file_indx, crop_length, df):
