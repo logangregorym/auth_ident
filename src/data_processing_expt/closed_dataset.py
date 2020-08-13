@@ -125,7 +125,7 @@ class closed_dataset:
         padding = [[0, self.crop_length + 2 - code_length], [0, 0]]
         encoding = tf.pad(encoding, padding, 'CONSTANT', constant_values=1)
         if (len(encoding) is not 302):
-            print(len(encoding), flush=True)
+            print(encoding, flush=True)
         if (len(encoding[0]) is not 98):
             print(len(encoding[0]), flush=True)
         return encoding
