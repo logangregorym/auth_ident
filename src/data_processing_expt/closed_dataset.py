@@ -99,7 +99,7 @@ class closed_dataset:
             X.append(self.encode_to_one_hot(contents[i]))
         print(len(X), flush=True)
         print(len(X[0]), flush=True)
-        X = np.array(X) #getting a sequence here
+        X = np.array(X, dtype=object) #getting a sequence here
 
         return X, y
 
