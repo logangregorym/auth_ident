@@ -96,7 +96,7 @@ class closed_dataset:
 
         X = []
         for i in range(len(contents)):
-            X.append(tf.to_ndarray(self.encode_to_one_hot(contents[i])))
+            X.append(tf.make_ndarray(self.encode_to_one_hot(contents[i])))
         X = np.array(X) #getting a sequence here
 
         return X, y
