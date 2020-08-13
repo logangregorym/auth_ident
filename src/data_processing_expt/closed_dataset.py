@@ -97,7 +97,8 @@ class closed_dataset:
         X = []
         for i in range(len(contents)):
             X.append(self.encode_to_one_hot(contents[i]))
-        X = np.array(X)
+        print(X, flush=True)
+        X = np.array(X) #getting a sequence here
 
         return X, y
 
