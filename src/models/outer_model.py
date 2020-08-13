@@ -48,7 +48,7 @@ class outer_model:
         encoder=self.load_encoder(self.params[0]["encoder_model"], self.params[0]["encoder_exp"])
 
         #strip cnn
-        layer_name = 'output_embedding'
+        layer_name = 'lstm1'
         intermediate_layer_model = keras.Model(inputs=encoder.input,
                                          outputs=encoder.get_layer(layer_name).output)
         intermediate_layer_model.summary()
