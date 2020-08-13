@@ -197,9 +197,9 @@ def accuracy(y_true, y_pred):
 
 
 def create_random_forest(params, index, logger):
-    return KNeighborsClassifier(n_jobs=-1)
+    #return KNeighborsClassifier(n_jobs=-1)
     #return SVC()f
-    #return RandomForestClassifier(n_jobs=-1, verbose=0, warm_start=True, min_samples_leaf=5)
+    return RandomForestClassifier(n_jobs=-1, verbose=0, warm_start=True, min_samples_leaf=5)
 
 if __name__ == "__main__":
     print("test", flush=True)
