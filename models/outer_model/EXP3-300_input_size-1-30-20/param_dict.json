@@ -1,6 +1,6 @@
 {
   "k_cross_val": [5],
-  "encoder_model": ["contrastive_cnn],
+  "encoder_model": ["contrastive_cnn"],
   "encoder_exp": ["8"],
   "language": ["python"],
   "bootstrap": [true],
