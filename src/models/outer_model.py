@@ -96,7 +96,8 @@ class outer_model:
         num_auth=len(np.unique(np.array(y_test)))
         print("Num_file in test_set: ", len(y_test))
         print("Num_auth in test set: ", num_auth)
-
+        print(len(X_train[0]), flush=True)
+        print(len(X_train), flush=True)
         self.outer_model.fit(X_train, y_train)
         return self.outer_model.score(X_test, y_test)
 
