@@ -58,9 +58,9 @@ class outer_model:
         gen = closed_dataset(crop_length=self.params[0]["max_code_length"], k_cross_val=self.params[0]["k_cross_val"],
                              language=self.params[0]["language"])
         self.X1, self.y1, self.X2, self.y2 = gen.get_datasets()
-        print("X1 shape: ", len(self.X1), flush=True)
-        print("y1 shape:", len(self.y1), flush=True)
-        print("X2 shape: ", len(self.X2), flush=True)
+        print("X1 shape: ", np.array(self.X1).shape, flush=True)
+        print("y1 shape:", np.array(self.y1).shape, flush=True)
+        print("X2 shape: ", np.array(self.X2).shape, flush=True)
         self.X1 = intermediate_layer_model.predict(self.X1, batch_size=self.params[0]["batch_size"])
         self.X2 = intermediate_layer_model.predict(self.X2, batch_size=self.params[0]["batch_size"])
 
