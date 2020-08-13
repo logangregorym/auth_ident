@@ -100,7 +100,7 @@ class closed_dataset:
 
         print(len(X), flush=True)
         print(len(X[0]), flush=True)
-        X = np.array(X) #getting a sequence here
+        X = tf.make_ndarray(X) #getting a sequence here
 
         return X, y
 
