@@ -99,7 +99,7 @@ class closed_dataset:
             X.append(self.encode_to_one_hot(contents[i]))
         print(len(X), flush=True)
         print(len(X[0]), flush=True)
-        X = np.array(X, dtype=float) #getting a sequence here
+        X = np.array(X) #getting a sequence here
 
         return X, y
 
@@ -123,7 +123,8 @@ class closed_dataset:
         code_length = tf.shape(encoding)[0]
         padding = [[0, self.crop_length + 2 - code_length], [0, 0]]
         encoding = tf.pad(encoding, padding, 'CONSTANT', constant_values=1)
-        print(encoding, flush=True)
+        print(len(encoding), flush=True)
+        print(len(encoding[0]), flush=True)
         return encoding
 
 if __name__ == "__main__":
