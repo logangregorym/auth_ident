@@ -1,7 +1,7 @@
 {
   "k_cross_val": [5],
   "encoder_model": ["contrastive_cnn"],
-  "encoder_exp": ["8"],
+  "encoder_exp": ["11"],
   "language": ["python"],
   "bootstrap": [true],
   "min_samples_leaf": [3],
