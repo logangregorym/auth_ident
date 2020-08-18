@@ -32,9 +32,9 @@ class closed_dataset:
         self.table = tf.lookup.StaticVocabularyTable(char_map, num_oov_buckets=1)
 
         # Load dataframes
-        file = "data/loaded/" + self.language + "_train.h5"
+        file = "data/loaded/" + self.language + "_val.h5"
         self.dataframe1 = pd.read_hdf(file)
-        file = "data/loaded/" + self.language + "_train.h5"
+        file = "data/loaded/" + self.language + "_test.h5"
         self.dataframe2 = pd.read_hdf(file)
 
     def get_datasets(self):
