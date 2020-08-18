@@ -81,9 +81,12 @@ class outer_model:
         print("embedding 1: ", self.X1[0], flush=True)
 
 
-        pca = PCA(n_components=2)
+        pca = PCA(n_components=3)
         X_r = pca.fit(self.X1).transform(self.X1)
-        plt.scatter(X_r[:, 0], X_r[:, 1], c=self.y1)
+
+        fig = plt.figure()
+        ax = fig.add_subplot(projection='3d')
+        plt.scatter(X_r[:, 0], X_r[:, 1], X_r[:, 2], c=self.y1)
         plt.savefig('pca.png')
 
         self.outer_model = create_random_forest(self.params, 0, None)
