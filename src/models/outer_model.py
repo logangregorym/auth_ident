@@ -86,8 +86,10 @@ class outer_model:
 
         fig = plt.figure()
         ax = fig.add_subplot(projection='3d')
-        plt.scatter(X_r[:, 0], X_r[:, 1], X_r[:, 2], c=self.y1)
-        plt.savefig('pca.png')
+
+        out = fig.scatter(X_r[:, 0], X_r[:, 1], X_r[:, 2], c=self.y1)
+        fig.colorbar(out)
+        fig.savefig('pca.png')
 
         self.outer_model = create_random_forest(self.params, 0, None)
         print(str(self.outer_model), flush=True)
