@@ -69,6 +69,11 @@ class outer_model:
         self.X1 = intermediate_layer_model.predict(self.X1, batch_size=self.params[0]["batch_size"])
         self.X2 = intermediate_layer_model.predict(self.X2, batch_size=self.params[0]["batch_size"])
 
+        ten_auth_mask = np.argwhere(np.isin(self.y1, list(range(10)))
+        masked_authors = self.X1[ten_auth_mask]
+        masked_labels = self.y1[ten_auth_mask]
+
+
         print("X1 shape: ", np.array(self.X1).shape, flush=True)
         print("y1 shape:", np.array(self.y1).shape, flush=True)
         print("X2 shape: ", np.array(self.X2).shape, flush=True)
@@ -78,13 +83,13 @@ class outer_model:
         print("embedding 1: ", self.X1[0], flush=True)
 
 
-        pca = PCA(n_components=3)
-        X_r = pca.fit(self.X1).transform(self.X1)
-
+        pca = PCA(n_components=2)
+        X_r = pca.fit_transform(masked_authors)
+        print(pca.explained_variance_, flush=True)
         fig = plt.figure()
         ax = fig.add_subplot(projection='3d')
 
-        out = ax.scatter(X_r[:, 0], X_r[:, 1], X_r[:, 2], c=self.y1)
+        out = ax.scatter(X_r[:, 0], X_r[:, 1], c=masked_labels)
         fig.colorbar(out)
         pickle.dump(fig, open('PCA.outer_model.pickle',
                               'wb'))  # This is for Python 3 - py2 may need `file` instead of `open`
