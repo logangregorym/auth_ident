@@ -39,6 +39,7 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.metrics.pairwise import euclidean_distances
+import pickle
 
 
 
@@ -85,7 +86,10 @@ class outer_model:
 
         out = ax.scatter(X_r[:, 0], X_r[:, 1], X_r[:, 2], c=self.y1)
         fig.colorbar(out)
-        fig.savefig('pca.png')
+        pickle.dump(fig, open('PCA.outer_model.pickle',
+                              'wb'))  # This is for Python 3 - py2 may need `file` instead of `open`
+
+        #fig.savefig('pca.png')
 
         self.outer_model = create_random_forest(self.params, 0, None)
         print(str(self.outer_model), flush=True)
