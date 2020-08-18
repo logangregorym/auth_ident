@@ -67,10 +67,6 @@ class outer_model:
 
 
 
-        pca = PCA(n_components=2)
-        X_r = pca.fit(self.X1).transform(self.X1)
-        plt.scatter(X_r[:, 0], X_r[:, 1], c=self.y1)
-        plt.show()
 
         self.X1 = intermediate_layer_model.predict(self.X1, batch_size=self.params[0]["batch_size"])
         self.X2 = intermediate_layer_model.predict(self.X2, batch_size=self.params[0]["batch_size"])
@@ -82,7 +78,13 @@ class outer_model:
         print("euclidian average X1: ", euclidian_average(self.X1), flush=True)
         print("euclidian average X2: ", euclidian_average(self.X2), flush=True)
         print("embedding 1: ", self.X1[0], flush=True)
-        
+
+
+        pca = PCA(n_components=2)
+        X_r = pca.fit(self.X1).transform(self.X1)
+        plt.scatter(X_r[:, 0], X_r[:, 1], c=self.y1)
+        plt.show()
+
         self.outer_model = create_random_forest(self.params, 0, None)
         print(str(self.outer_model), flush=True)
         #train on train3
