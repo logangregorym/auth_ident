@@ -43,6 +43,7 @@ import pickle
 
 
 
+
 class outer_model:
 
     def __init__(self, exp_name, exp_num, date=datetime.now().strftime("%m-%d-%y")):
@@ -90,7 +91,10 @@ class outer_model:
         X_r = pca.fit_transform(np.squeeze(masked_authors))
         print(pca.explained_variance_, flush=True)
 
-        out = plt.scatter(X_r[:, 0], X_r[:, 1], c=masked_labels)
+        cmap = {0:"red", 1:"green", 2:"blue", 3:"orange", 4:"yellow", 5:"black", 6: "cyan", 7:"purple", 8:"magenta", 9:"brown"}
+
+        out = plt.scatter(X_r[:, 0], X_r[:, 1], c=np.vectorize(cmap.get)(masked_labels))
+
         plt.colorbar(out)
         #pickle.dump(fig, open('PCA.outer_model.pickle',
          #                     'wb'))  # This is for Python 3 - py2 may need `file` instead of `open`
