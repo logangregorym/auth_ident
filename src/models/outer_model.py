@@ -65,6 +65,8 @@ class outer_model:
         self.X1, self.y1, self.X2, self.y2 = gen.get_datasets()
 
 
+
+
         pca = PCA(n_components=2)
         X_r = pca.fit(self.X1).transform(self.X1)
         plt.scatter(X_r[:, 0], X_r[:, 1], c=self.y1)
@@ -72,6 +74,10 @@ class outer_model:
 
         self.X1 = intermediate_layer_model.predict(self.X1, batch_size=self.params[0]["batch_size"])
         self.X2 = intermediate_layer_model.predict(self.X2, batch_size=self.params[0]["batch_size"])
+
+        print("X1 shape: ", np.array(self.X1).shape, flush=True)
+        print("y1 shape:", np.array(self.y1).shape, flush=True)
+        print("X2 shape: ", np.array(self.X2).shape, flush=True)
 
         print("euclidian average X1: ", euclidian_average(self.X1), flush=True)
         print("euclidian average X2: ", euclidian_average(self.X2), flush=True)
