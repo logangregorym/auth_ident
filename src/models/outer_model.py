@@ -35,6 +35,11 @@ from contrastive_by_line_cnn import contrastive_by_line_cnn
 from contrastive_1D_to_2D import contrastive_1D_to_2D
 from dilated_conv_by_line import dilated_conv_by_line
 from src.data_processing_expt.closed_dataset import closed_dataset
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
+import numpy as np
+
+
 
 class outer_model:
 
@@ -58,6 +63,16 @@ class outer_model:
         gen = closed_dataset(crop_length=self.params[0]["max_code_length"], k_cross_val=self.params[0]["k_cross_val"],
                              language=self.params[0]["language"])
         self.X1, self.y1, self.X2, self.y2 = gen.get_datasets()
+
+        print("euclidian average X1: ", euclidian_average(self.X1), flush=True)
+        print("euclidian average X2: ", euclidian_average(self.X2), flush=True)
+        print("embedding 1: ", self.X1[0], flush=True)
+
+        pca = PCA(n_components=2)
+        X_r = pca.fit(self.X1).transform(self.X1)
+        plt.scatter(X_r[:, 0], X_r[:, 1], c=self.y1)
+        plt.show()
+
         print("X1 shape: ", np.array(self.X1).shape, flush=True)
         print("y1 shape:", np.array(self.y1).shape, flush=True)
         print("X2 shape: ", np.array(self.X2).shape, flush=True)
@@ -193,6 +208,13 @@ def accuracy(y_true, y_pred):
     '''
     return K.mean(K.equal(y_true, K.cast(y_pred < 0.5, y_true.dtype)))
 
+def euclidian_average(X):
+    total = 0
+    for i in range(X.shape[0]):
+        for j in range(X.shape[0]):
+            if i is not j:
+                total = total + np.linalg.norm(X[i] - X[j])
+    return total / (X.shape[0] * (X.shape[0] - 1))
 
 def create_random_forest(params, index, logger):
     #return KNeighborsClassifier(n_jobs=-1)
