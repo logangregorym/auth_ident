@@ -209,7 +209,7 @@ def accuracy(y_true, y_pred):
     return K.mean(K.equal(y_true, K.cast(y_pred < 0.5, y_true.dtype)))
 
 def euclidian_average(X):
-    total = np.linalg.norm(X - X.transpose(axis=[1, 0]), axis=1)
+    total = np.linalg.norm(X - X.transpose((1, 0)), axis=1)
     return total / (X.shape[0] * (X.shape[0] - 1))
 
 def create_random_forest(params, index, logger):
