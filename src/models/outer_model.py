@@ -38,6 +38,7 @@ from src.data_processing_expt.closed_dataset import closed_dataset
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 import numpy as np
+from sklearn.metrics.pairwise import euclidean_distances
 
 
 
@@ -215,8 +216,8 @@ def accuracy(y_true, y_pred):
     return K.mean(K.equal(y_true, K.cast(y_pred < 0.5, y_true.dtype)))
 
 def euclidian_average(X):
-    total = np.linalg.norm(X - X.transpose((1, 0)), axis=1)
-    return total / (X.shape[0] * (X.shape[0] - 1))
+    dists = euclidean_distances(X, X)
+    return np.sum(dists) / (X.shape[0] * (X.shape[0] - 1))
 
 def create_random_forest(params, index, logger):
     #return KNeighborsClassifier(n_jobs=-1)
