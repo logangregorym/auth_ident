@@ -65,10 +65,6 @@ class outer_model:
                              language=self.params[0]["language"])
         self.X1, self.y1, self.X2, self.y2 = gen.get_datasets()
 
-
-
-
-
         self.X1 = intermediate_layer_model.predict(self.X1, batch_size=self.params[0]["batch_size"])
         self.X2 = intermediate_layer_model.predict(self.X2, batch_size=self.params[0]["batch_size"])
 
@@ -87,7 +83,7 @@ class outer_model:
         fig = plt.figure()
         ax = fig.add_subplot(projection='3d')
 
-        out = fig.scatter(X_r[:, 0], X_r[:, 1], X_r[:, 2], c=self.y1)
+        out = ax.scatter(X_r[:, 0], X_r[:, 1], X_r[:, 2], c=self.y1)
         fig.colorbar(out)
         fig.savefig('pca.png')
 
