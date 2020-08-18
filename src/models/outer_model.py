@@ -92,7 +92,7 @@ class outer_model:
         out = ax.scatter(X_r[:, 0], X_r[:, 1], c=masked_labels)
         fig.colorbar(out)
         #pickle.dump(fig, open('PCA.outer_model.pickle',
-                              'wb'))  # This is for Python 3 - py2 may need `file` instead of `open`
+         #                     'wb'))  # This is for Python 3 - py2 may need `file` instead of `open`
 
         fig.savefig('pca.png')
 
