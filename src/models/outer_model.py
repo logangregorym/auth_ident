@@ -87,14 +87,14 @@ class outer_model:
         X_r = pca.fit_transform(masked_authors)
         print(pca.explained_variance_, flush=True)
         fig = plt.figure()
-        ax = fig.add_subplot(projection='3d')
+        ax = fig.add_subplot(projection='2d')
 
         out = ax.scatter(X_r[:, 0], X_r[:, 1], c=masked_labels)
         fig.colorbar(out)
-        pickle.dump(fig, open('PCA.outer_model.pickle',
+        #pickle.dump(fig, open('PCA.outer_model.pickle',
                               'wb'))  # This is for Python 3 - py2 may need `file` instead of `open`
 
-        #fig.savefig('pca.png')
+        fig.savefig('pca.png')
 
         self.outer_model = create_random_forest(self.params, 0, None)
         print(str(self.outer_model), flush=True)
