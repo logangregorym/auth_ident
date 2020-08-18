@@ -65,14 +65,6 @@ class outer_model:
         self.X1, self.y1, self.X2, self.y2 = gen.get_datasets()
 
 
-        print("X1 shape: ", np.array(self.X1).shape, flush=True)
-        print("y1 shape:", np.array(self.y1).shape, flush=True)
-        print("X2 shape: ", np.array(self.X2).shape, flush=True)
-        
-        print("euclidian average X1: ", euclidian_average(self.X1), flush=True)
-        print("euclidian average X2: ", euclidian_average(self.X2), flush=True)
-        print("embedding 1: ", self.X1[0], flush=True)
-
         pca = PCA(n_components=2)
         X_r = pca.fit(self.X1).transform(self.X1)
         plt.scatter(X_r[:, 0], X_r[:, 1], c=self.y1)
@@ -81,6 +73,10 @@ class outer_model:
         self.X1 = intermediate_layer_model.predict(self.X1, batch_size=self.params[0]["batch_size"])
         self.X2 = intermediate_layer_model.predict(self.X2, batch_size=self.params[0]["batch_size"])
 
+        print("euclidian average X1: ", euclidian_average(self.X1), flush=True)
+        print("euclidian average X2: ", euclidian_average(self.X2), flush=True)
+        print("embedding 1: ", self.X1[0], flush=True)
+        
         self.outer_model = create_random_forest(self.params, 0, None)
         print(str(self.outer_model), flush=True)
         #train on train3
