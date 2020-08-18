@@ -75,7 +75,7 @@ class outer_model:
         ten_auth_mask = (np.argwhere(np.isin(self.y1, list(range(10)))))
         print(ten_auth_mask.shape, flush=True)
         masked_authors = self.X1[ten_auth_mask.astype(dtype=np.int16)]
-        masked_labels = self.y1[ten_auth_mask.astype(dtype=np.int16)]
+        masked_labels = np.squeeze(self.y1)[ten_auth_mask.astype(dtype=np.int16)]
 
 
         print("X2 shape: ", np.array(self.X2).shape, flush=True)
