@@ -86,7 +86,8 @@ class outer_model:
 
 
         pca = PCA(n_components=2)
-        X_r = pca.fit_transform(masked_authors)
+        print(masked_authors.shape, flush=True)
+        X_r = pca.fit_transform(np.squeeze(masked_authors))
         print(pca.explained_variance_, flush=True)
         fig = plt.figure()
         ax = fig.add_subplot(projection='2d')
