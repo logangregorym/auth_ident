@@ -83,7 +83,7 @@ class outer_model:
         pca = PCA(n_components=2)
         X_r = pca.fit(self.X1).transform(self.X1)
         plt.scatter(X_r[:, 0], X_r[:, 1], c=self.y1)
-        plt.show()
+        plt.savefig('pca.png')
 
         self.outer_model = create_random_forest(self.params, 0, None)
         print(str(self.outer_model), flush=True)
