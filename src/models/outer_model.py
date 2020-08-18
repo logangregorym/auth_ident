@@ -93,7 +93,7 @@ class outer_model:
 
         cmap = {0:"red", 1:"green", 2:"blue", 3:"orange", 4:"yellow", 5:"black", 6: "cyan", 7:"purple", 8:"magenta", 9:"brown"}
 
-        out = plt.scatter(X_r[:, 0], X_r[:, 1], c=np.vectorize(cmap.get)(masked_labels))
+        out = plt.scatter(X_r[:, 0], X_r[:, 1], c=np.squeeze(np.vectorize(cmap.get)(masked_labels)))
 
         plt.colorbar(out)
         #pickle.dump(fig, open('PCA.outer_model.pickle',
