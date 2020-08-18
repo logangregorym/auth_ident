@@ -70,8 +70,9 @@ class outer_model:
         self.X2 = intermediate_layer_model.predict(self.X2, batch_size=self.params[0]["batch_size"])
 
         ten_auth_mask = np.argwhere(np.isin(self.y1, list(range(10))))
-        masked_authors = self.X1[ten_auth_mask]
-        masked_labels = self.y1[ten_auth_mask]
+        print(ten_auth_mask.shape, flush=True)
+        masked_authors = self.X1[ten_auth_mask[0]]
+        masked_labels = self.y1[ten_auth_mask[0]]
 
 
         print("X1 shape: ", np.array(self.X1).shape, flush=True)
