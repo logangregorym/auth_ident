@@ -69,7 +69,7 @@ class outer_model:
         self.X1 = intermediate_layer_model.predict(self.X1, batch_size=self.params[0]["batch_size"])
         self.X2 = intermediate_layer_model.predict(self.X2, batch_size=self.params[0]["batch_size"])
 
-        ten_auth_mask = np.squeeze(np.argwhere(np.isin(self.y1, list(range(10)))))
+        ten_auth_mask = (np.argwhere(np.isin(self.y1, list(range(10)))))
         print(ten_auth_mask.shape, flush=True)
         masked_authors = self.X1[ten_auth_mask.astype(dtype=np.int16)]
         masked_labels = self.y1[ten_auth_mask.astype(dtype=np.int16)]
