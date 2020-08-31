@@ -1,0 +1,337 @@
+2020-08-20 14:35:31,952 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:35:31,952 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['contrastive'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:35:31,952 : INFO : root : 
+2020-08-20 14:35:31,973 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:35:31,973 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'contrastive', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:35:31,973 : INFO : combination-0 : 
+2020-08-20 14:35:31,974 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:35:37,969 : INFO : combination-0 : Fit model on training data
+2020-08-20 14:36:18,699 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:36:18,699 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['contrastive'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:36:18,700 : INFO : root : 
+2020-08-20 14:36:18,705 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:36:18,705 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'contrastive', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:36:18,705 : INFO : combination-0 : 
+2020-08-20 14:36:18,705 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:36:23,208 : INFO : combination-0 : Fit model on training data
+2020-08-20 14:38:13,955 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:38:13,955 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:38:13,955 : INFO : root : 
+2020-08-20 14:38:13,961 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:38:13,961 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:38:13,961 : INFO : combination-0 : 
+2020-08-20 14:38:13,961 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:38:18,827 : INFO : combination-0 : Fit model on training data
+2020-08-20 14:40:23,240 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:40:23,240 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:40:23,240 : INFO : root : 
+2020-08-20 14:40:23,245 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:40:23,245 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:40:23,245 : INFO : combination-0 : 
+2020-08-20 14:40:23,245 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:40:28,094 : INFO : combination-0 : Fit model on training data
+2020-08-20 14:41:33,986 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:41:33,987 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:41:33,987 : INFO : root : 
+2020-08-20 14:41:33,994 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:41:33,994 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:41:33,995 : INFO : combination-0 : 
+2020-08-20 14:41:33,995 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:41:39,250 : INFO : combination-0 : Fit model on training data
+2020-08-20 14:44:22,408 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:44:22,408 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:44:22,408 : INFO : root : 
+2020-08-20 14:44:22,414 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:44:22,414 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:44:22,414 : INFO : combination-0 : 
+2020-08-20 14:44:22,414 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:44:26,841 : INFO : combination-0 : Fit model on training data
+2020-08-20 14:47:46,882 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:47:46,882 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:47:46,882 : INFO : root : 
+2020-08-20 14:47:46,887 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:47:46,888 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:47:46,888 : INFO : combination-0 : 
+2020-08-20 14:47:46,888 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:48:06,073 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:48:06,073 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:48:06,073 : INFO : root : 
+2020-08-20 14:48:06,079 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:48:06,079 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:48:06,079 : INFO : combination-0 : 
+2020-08-20 14:48:06,079 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:48:18,651 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:48:18,652 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:48:18,652 : INFO : root : 
+2020-08-20 14:48:18,658 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:48:18,658 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:48:18,658 : INFO : combination-0 : 
+2020-08-20 14:48:18,658 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:52:24,679 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:52:24,679 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:52:24,680 : INFO : root : 
+2020-08-20 14:52:24,685 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:52:24,686 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:52:24,686 : INFO : combination-0 : 
+2020-08-20 14:52:24,686 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:52:55,599 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:52:55,599 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:52:55,599 : INFO : root : 
+2020-08-20 14:52:55,604 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:52:55,605 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:52:55,605 : INFO : combination-0 : 
+2020-08-20 14:52:55,605 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:53:11,568 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:53:11,568 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:53:11,568 : INFO : root : 
+2020-08-20 14:53:11,575 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:53:11,575 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:53:11,575 : INFO : combination-0 : 
+2020-08-20 14:53:11,575 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:53:43,986 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:53:43,986 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:53:43,986 : INFO : root : 
+2020-08-20 14:53:43,991 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:53:43,991 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:53:43,991 : INFO : combination-0 : 
+2020-08-20 14:53:43,991 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:53:48,328 : INFO : combination-0 : Fit model on training data
+2020-08-20 14:57:00,478 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:57:00,479 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:57:00,479 : INFO : root : 
+2020-08-20 14:57:00,484 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:57:00,485 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:57:00,485 : INFO : combination-0 : 
+2020-08-20 14:57:00,485 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:57:04,626 : INFO : combination-0 : Fit model on training data
+2020-08-20 14:57:42,824 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 14:57:42,824 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 14:57:42,824 : INFO : root : 
+2020-08-20 14:57:42,829 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 14:57:42,830 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 14:57:42,830 : INFO : combination-0 : 
+2020-08-20 14:57:42,830 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 14:57:47,231 : INFO : combination-0 : Fit model on training data
+2020-08-20 15:00:21,707 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 15:00:21,707 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 15:00:21,707 : INFO : root : 
+2020-08-20 15:00:21,712 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 15:00:21,712 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 15:00:21,712 : INFO : combination-0 : 
+2020-08-20 15:00:21,712 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 15:00:26,232 : INFO : combination-0 : Fit model on training data
+2020-08-20 15:00:53,229 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 15:00:53,229 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 15:00:53,229 : INFO : root : 
+2020-08-20 15:00:53,234 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 15:00:53,234 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 15:00:53,235 : INFO : combination-0 : 
+2020-08-20 15:00:53,235 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 15:00:58,774 : INFO : combination-0 : Fit model on training data
+2020-08-20 15:06:05,246 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-20 15:06:05,246 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-20 15:06:05,246 : INFO : root : 
+2020-08-20 15:06:05,251 : INFO : combination-0 : Training with parameter combination 0
+2020-08-20 15:06:05,251 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-20 15:06:05,251 : INFO : combination-0 : 
+2020-08-20 15:06:05,252 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-20 15:06:14,157 : INFO : combination-0 : Fit model on training data
+2020-08-22 15:31:15,812 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 15:31:15,813 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 15:31:15,813 : INFO : root : 
+2020-08-22 15:31:15,840 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 15:31:15,841 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 15:31:15,841 : INFO : combination-0 : 
+2020-08-22 15:31:15,841 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 15:31:31,812 : INFO : combination-0 : Fit model on training data
+2020-08-22 15:42:09,688 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 15:42:09,688 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 15:42:09,688 : INFO : root : 
+2020-08-22 15:42:09,694 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 15:42:09,694 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 15:42:09,694 : INFO : combination-0 : 
+2020-08-22 15:42:09,694 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 15:42:21,272 : INFO : combination-0 : Fit model on training data
+2020-08-22 15:44:28,594 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 15:44:28,594 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 15:44:28,594 : INFO : root : 
+2020-08-22 15:44:28,601 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 15:44:28,601 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 15:44:28,601 : INFO : combination-0 : 
+2020-08-22 15:44:28,601 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 15:44:44,381 : INFO : combination-0 : Fit model on training data
+2020-08-22 15:51:48,386 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 15:51:48,386 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 15:51:48,386 : INFO : root : 
+2020-08-22 15:51:48,433 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 15:51:48,434 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 15:51:48,435 : INFO : combination-0 : 
+2020-08-22 15:51:48,435 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 15:52:12,281 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 15:52:12,281 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 15:52:12,281 : INFO : root : 
+2020-08-22 15:52:12,292 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 15:52:12,292 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 15:52:12,292 : INFO : combination-0 : 
+2020-08-22 15:52:12,293 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 15:52:23,789 : INFO : combination-0 : Fit model on training data
+2020-08-22 15:53:59,929 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 15:53:59,930 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 15:53:59,930 : INFO : root : 
+2020-08-22 15:53:59,935 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 15:53:59,935 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 15:53:59,935 : INFO : combination-0 : 
+2020-08-22 15:53:59,935 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 15:54:11,740 : INFO : combination-0 : Fit model on training data
+2020-08-22 15:54:55,058 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 15:54:55,058 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 15:54:55,058 : INFO : root : 
+2020-08-22 15:54:55,067 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 15:54:55,068 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 15:54:55,068 : INFO : combination-0 : 
+2020-08-22 15:54:55,068 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 15:55:08,258 : INFO : combination-0 : Fit model on training data
+2020-08-22 15:56:35,186 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 15:56:35,186 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 15:56:35,186 : INFO : root : 
+2020-08-22 15:56:35,197 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 15:56:35,198 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 15:56:35,198 : INFO : combination-0 : 
+2020-08-22 15:56:35,198 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 15:56:45,399 : INFO : combination-0 : Fit model on training data
+2020-08-22 15:58:17,342 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 15:58:17,342 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 15:58:17,342 : INFO : root : 
+2020-08-22 15:58:17,348 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 15:58:17,348 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 15:58:17,348 : INFO : combination-0 : 
+2020-08-22 15:58:17,348 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 15:58:24,263 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:00:13,647 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:00:13,647 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:00:13,647 : INFO : root : 
+2020-08-22 16:00:13,659 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:00:13,659 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:00:13,659 : INFO : combination-0 : 
+2020-08-22 16:00:13,660 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:00:17,721 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:01:25,976 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:01:25,976 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:01:25,976 : INFO : root : 
+2020-08-22 16:01:25,983 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:01:25,983 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:01:25,983 : INFO : combination-0 : 
+2020-08-22 16:01:25,983 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:01:30,866 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:01:55,468 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:01:55,468 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:01:55,468 : INFO : root : 
+2020-08-22 16:01:55,480 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:01:55,480 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:01:55,481 : INFO : combination-0 : 
+2020-08-22 16:01:55,481 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:02:01,574 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:02:16,353 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:02:16,353 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:02:16,353 : INFO : root : 
+2020-08-22 16:02:16,360 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:02:16,361 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:02:16,361 : INFO : combination-0 : 
+2020-08-22 16:02:16,361 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:02:20,989 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:03:34,710 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:03:34,711 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:03:34,711 : INFO : root : 
+2020-08-22 16:03:34,717 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:03:34,719 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:03:34,720 : INFO : combination-0 : 
+2020-08-22 16:03:34,721 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:03:39,758 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:04:17,176 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:04:17,177 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:04:17,177 : INFO : root : 
+2020-08-22 16:04:17,183 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:04:17,183 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:04:17,183 : INFO : combination-0 : 
+2020-08-22 16:04:17,184 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:04:21,962 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:05:54,369 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:05:54,369 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:05:54,369 : INFO : root : 
+2020-08-22 16:05:54,379 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:05:54,379 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:05:54,380 : INFO : combination-0 : 
+2020-08-22 16:05:54,380 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:05:58,664 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:06:20,221 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:06:20,221 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:06:20,221 : INFO : root : 
+2020-08-22 16:06:20,226 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:06:20,227 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:06:20,227 : INFO : combination-0 : 
+2020-08-22 16:06:20,227 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:06:24,555 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:06:47,646 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:06:47,646 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:06:47,647 : INFO : root : 
+2020-08-22 16:06:47,653 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:06:47,653 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:06:47,654 : INFO : combination-0 : 
+2020-08-22 16:06:47,654 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:06:52,132 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:08:45,110 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:08:45,110 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:08:45,110 : INFO : root : 
+2020-08-22 16:08:45,118 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:08:45,119 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:08:45,119 : INFO : combination-0 : 
+2020-08-22 16:08:45,119 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:08:49,175 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:09:06,235 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:09:06,235 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:09:06,235 : INFO : root : 
+2020-08-22 16:09:06,244 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:09:06,244 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:09:06,244 : INFO : combination-0 : 
+2020-08-22 16:09:06,245 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:09:10,787 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:09:42,709 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:09:42,710 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:09:42,710 : INFO : root : 
+2020-08-22 16:09:42,716 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:09:42,716 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:09:42,716 : INFO : combination-0 : 
+2020-08-22 16:09:42,716 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:09:47,139 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:11:05,410 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:11:05,411 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['contrastive'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:11:05,411 : INFO : root : 
+2020-08-22 16:11:05,417 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:11:05,417 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'contrastive', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:11:05,418 : INFO : combination-0 : 
+2020-08-22 16:11:05,418 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:11:09,394 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:15:28,866 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:15:28,866 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['contrastive'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:15:28,866 : INFO : root : 
+2020-08-22 16:15:28,872 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:15:28,872 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'contrastive', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:15:28,872 : INFO : combination-0 : 
+2020-08-22 16:15:28,873 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:15:32,824 : INFO : combination-0 : Fit model on training data
+2020-08-22 16:15:58,319 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 16:15:58,319 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 16:15:58,319 : INFO : root : 
+2020-08-22 16:15:58,325 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 16:15:58,326 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 16:15:58,326 : INFO : combination-0 : 
+2020-08-22 16:15:58,326 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 16:16:02,535 : INFO : combination-0 : Fit model on training data
+2020-08-22 17:38:26,687 : INFO : root : Starting expirement logan_test-8with model contrastive_cnn
+2020-08-22 17:38:26,687 : INFO : root : Parameter dict: {'optimizer': ['adam'], 'loss': ['simclr'], 'lr': [1e-05], 'decay': [2.5e-06], 'temperature': [0.5], 'margin': [1], 'epochs': [4], 'batch_size': [64], 'binary_encoding': [False], 'max_code_length': [1200], 'embedding_size': [256], 'BN': [False]}
+2020-08-22 17:38:26,687 : INFO : root : 
+2020-08-22 17:38:26,694 : INFO : combination-0 : Training with parameter combination 0
+2020-08-22 17:38:26,694 : INFO : combination-0 : With parameters: {'optimizer': 'adam', 'loss': 'simclr', 'lr': 1e-05, 'decay': 2.5e-06, 'temperature': 0.5, 'margin': 1, 'epochs': 4, 'batch_size': 64, 'binary_encoding': False, 'max_code_length': 1200, 'embedding_size': 256, 'BN': False}
+2020-08-22 17:38:26,695 : INFO : combination-0 : 
+2020-08-22 17:38:26,695 : INFO : combination-0 : Current log dir: models\contrastive_cnn\EXP8-logan_test-5-29-20\combination-0
+2020-08-22 17:38:30,666 : INFO : combination-0 : Fit model on training data
